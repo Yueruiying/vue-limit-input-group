@@ -1,9 +1,10 @@
 # 分组 最大值，最小值 控制组件
 
-##依赖
-element-ui/el-input-number
+## 依赖
 
-##安装
+`element-ui/el-input-number`
+
+## 安装
 
 `yarn add vue-limit-input-group`
 
@@ -11,15 +12,15 @@ or
 
 `npm i vue-limit-input-group -S`
 
-##简述
+## 简述
 limit-input-number 基于 element-ui 的 el-input-number 控件基础改造, 所以本组件依赖 element-ui
 limit-input-number 可直接替换 el-input-number
 
-##属性
+## 属性
 max: 所有input总和最大值
 min: 所有input总和最低值
 
-##事件 
+## 事件 
 greaterThan(newVal, overVal, maxVal): 当控件总和超过最大值
 lessThan(newVal, overVal, minVal): 当控件总和小于最小值
 
@@ -29,7 +30,7 @@ overVal: 剩余能输入的数值
 maxVal: 最大数值
 minVal: 最小数值
 
-##使用方式
+## 使用方式
 
 ```html
 <limit-input-group max="12" min="5" @greaterThan="(newVal, ) => { alert('不能大于12') }">
