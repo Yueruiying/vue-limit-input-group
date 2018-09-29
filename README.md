@@ -1,8 +1,8 @@
 # 分组 最大值，最小值 控制组件
 
-## 依赖
-
-`element-ui/el-input-number`
+## 简述
+limit-input-number 基于 element-ui 的 el-input-number 控件基础改造, 所以本组件依赖 element-ui
+limit-input-number 可直接替换 el-input-number
 
 ## 安装
 
@@ -12,9 +12,9 @@ or
 
 `npm i vue-limit-input-group -S`
 
-## 简述
-limit-input-number 基于 element-ui 的 el-input-number 控件基础改造, 所以本组件依赖 element-ui
-limit-input-number 可直接替换 el-input-number
+## 依赖
+
+`element-ui/el-input-number`
 
 ## 属性
 max: 所有input总和最大值
